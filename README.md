@@ -38,3 +38,16 @@ ForwardX11 yes
 ForwardX11Trusted yes
 ForwardAgent yes
 ```
+# x11服务端设置(win11)
+安装 *xming* 或 *VcXsrv* 这类x11服务端, 打开XLaunch, 前两页默认
+
+![alt text](image.png)
+![alt text](image-1.png)
+
+第三页勾选 *disable access control*, 然后保存完成就行
+
+![alt text](image-2.png)
+
+完成后会在托盘区找到一个 *x* 图标
+
+![alt text](image-3.png)
